@@ -68,13 +68,13 @@ code {
 }
 
 .note.new{
-  background-color: #67d7cc;
+  background-color: #FAD287;
 }
 
 .note.new textarea{
   border: none;
   resize: none;
-  background-color: #67d7cc;
+  background-color: #FAD287;
 }
 
 textarea:focus{
@@ -86,12 +86,12 @@ textarea:focus{
   border: none;
   border-radius: 15px;
   padding: 5px 10px;
+  transition: 0.2s;
 }
 
 .save:hover{
   transform: scale(1.1);
   background-color: azure;
-  transition: 0.2s;
   cursor: pointer;
 }
 
@@ -112,10 +112,13 @@ textarea:focus{
   justify-content: space-between;
 }
 
+.delete-icon{
+  transition: 0.2s;
+}
+
 .delete-icon:hover{
   transform: scale(1.2);
   color: rgb(124, 17, 17);
-  transition: 0.2s;
   cursor: pointer;
 }
 
