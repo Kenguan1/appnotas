@@ -29,8 +29,7 @@ const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
 
-  /* REVISAR https://stackoverflow.com/questions/72222728/why-is-localstorage-getting-cleared-whenever-i-refresh-the-page
- */
+
   useEffect(() => {  // Para recuperar las notas (mostrarlas)
     const savedNotes = JSON.parse(
       localStorage.getItem('appnotas-data')
