@@ -1,4 +1,4 @@
-Hi, this is a Notes App, made usig React
+Hi! This is a Notes App, made using React
 
 Here is the light and dark version, quite intuitive and simple
 
